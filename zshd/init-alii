@@ -1,0 +1,31 @@
+#!/usr/bin/zsh
+### zle keybinds go here
+
+### alii go here
+alias ls=' ls --color=auto --group-directories-first --human-readable'
+alias lsl="ls -la"
+alias cls="clear && ls -la"
+
+# TODO: write a pair of fns for emacs: emacs/client-x? that contextually figure if you want x or cli
+alias emc="emacsclient-x -nw --alternate-editor=''"
+alias emacs="emacs-nox"
+alias emacsclient="emacsclient-nox"
+alias emacs-x="emacsclient-x -nw -a ''"
+# alias emacsclient-x="emacsclient-x"
+# alias emacsclient-nw-mail="emacsclient -n -nw"
+
+alias clip='xsel --clipboard'
+alias webpaste='curl -F c=@- https://ptpb.pw/'
+
+### Location Specific Customization
+# if arch/home-linux
+#alias gpu-temp='nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader' # this is neat if you have nvidia
+#alias pacman-autoremove="pacman -R $(pacman -Qdtq)" 
+
+# remote-server
+
+
+# if work-cygwin then 
+# alias node='$HOME/.local/nodejs/node.exe --interactive'
+# alias npm='$HOME/.local/nodejs/npm'
+

@@ -1,0 +1,8 @@
+#!/usr/bin/zsh
+# this starts emacs-server if it isnt already then calls it. 
+# todo: add args and such, for x vs nox, init.el, etc
+function edit () {
+    exec emacsclient --alternate-editor="" -c "$*"
+}
+
+edit "$*"

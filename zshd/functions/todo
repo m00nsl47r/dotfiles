@@ -1,0 +1,6 @@
+#!/usr/bin/zsh
+local NOTE="$1"
+if [];then
+   local MODIFIER="$2"
+fi
+print "${$NOTE$MODIFIER}\n"

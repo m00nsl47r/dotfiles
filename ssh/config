@@ -1,0 +1,7 @@
+# contents of $HOME/.ssh/config
+Host 
+    HostName 
+    Port 22
+    User 
+    IdentityFile ~/.ssh/id_rsa
+    ServerAliveInterval 120

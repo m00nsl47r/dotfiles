@@ -1,0 +1,34 @@
+#!/usr/bin/zsh
+# Antigen Settings
+# 
+# ANTIGEN_PREZTO_REPO_URL=git@github.com:LynnMaISD/prezto.git
+# ANTIGEN_DEFAULT_REPO_URL=git@github.com:LynnMaISD/oh-my-zsh.git
+  
+# Load Antigen
+time antigen use oh-my-zsh
+  
+# Bundles
+# 
+# antigen bundle debian
+time antigen bundle emacs
+time antigen bundle git
+time antigen bundle ssh-agent # because setting up agent is annoying
+# antigen bundle sudo
+# antigen bundle zsh_reload
+  
+# antigen bundle tmuxinator # this might be nice after tmux.conf is done
+# antigen bundle Tarrasch/zsh-autoenv
+
+# Theme - my own homebrew based on babun's, works with oh-my-zsh too
+print "Theme Repo: $THEMEREPO\n"
+print "Theme: $THEME\n"
+time antigen theme $THEMEREPO/$THEME
+  
+# Allow SSH tab completion for mosh hostnames
+# compdef mosh=ssh
+  
+# Package Manager's completions and such go last to ensure that it
+# gets set properly.
+bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-syntax-highlighting
+time antigen apply

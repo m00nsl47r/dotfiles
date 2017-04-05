@@ -1,0 +1,14 @@
+lrwxrwxrwx  1 cmuche Domain Users     29 Mar 27 16:49 .bashrc -> /home/cmuche/.dotfiles/bashrc
+lrwxrwxrwx  1 cmuche Domain Users     36 Mar 27 14:33 .dotfiles -> /home/cmuche/devel/gitrepos/dotfiles
+lrwxrwxrwx  1 cmuche Domain Users     43 Mar 29 12:22 .emacs.d -> /home/cmuche/devel/gitrepos/dotfiles/emacsd
+lrwxrwxrwx  1 cmuche Domain Users     46 Mar 29 11:47 .gitconfig -> /home/cmuche/devel/gitrepos/dotfiles/gitconfig
+lrwxrwxrwx  1 cmuche Domain Users     29 Mar 27 16:55 .nanorc -> /home/cmuche/.dotfiles/nanorc
+lrwxrwxrwx  1 cmuche Domain Users     31 Mar 27 16:46 .screenrc -> /home/cmuche/.dotfiles/screenrc
+lrwxrwxrwx  1 cmuche Domain Users     26 Mar 27 16:53 .ssh -> /home/cmuche/.dotfiles/ssh
+lrwxrwxrwx  1 cmuche Domain Users     41 Mar 29 12:23 .zshd -> /home/cmuche/devel/gitrepos/dotfiles/zshd
+lrwxrwxrwx  1 cmuche Domain Users     28 Mar 27 16:43 .zshrc -> /home/cmuche/.dotfiles/zshrc
+lrwxrwxrwx  1 cmuche Domain Users     23 Feb 27 14:12 bin -> /home/cmuche/.local/bin
+total 9
+drwxr-xr-x+ 1 cmuche Domain Users  0 Mar 30 15:35 .
+drwxr-xr-x+ 1 cmuche Domain Users  0 Mar 30 15:34 ..
+lrwxrwxrwx  1 cmuche Domain Users 37 Mar 30 15:35 init.el -> /home/cmuche/.dotfiles/emacsd/init.el

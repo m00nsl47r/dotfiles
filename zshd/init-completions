@@ -1,0 +1,22 @@
+#!/usr/bin/zsh
+# ZSH Completions init
+
+# set up environment 
+bindkey -e
+
+
+# completions stuff
+# todo: make this safe
+# source $ZSHD/completions/*
+
+# do the completions 
+zstyle ':completion:*' completer _complete _ignored
+zstyle ':completion:*' glob unset
+zstyle ':completion:*' max-errors 1
+# zstyle ':completion:*' prompt 'corr'
+zstyle :compinstall filename '/home/chrstfer/.zsh.d/zcomps'
+
+
+# finish setting up compinit
+autoload -Uz compinit
+compinit
